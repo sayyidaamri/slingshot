@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | SLINGSHOT</title>
+<meta name="description" content="Get in touch with Slingshot.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2314213D'/%3E%3Ctext x='16' y='23' text-anchor='middle' font-family='Arial' font-weight='700' font-size='20' fill='%23FF5B2E'%3ES%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&family=Jost:wght@600&family=Newsreader:ital,opsz,wght@0,6..72,300;1,6..72,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="p-contact">
+<div class="veil" data-veil></div>
+
+<main class="main">
+
+<section class="ct" data-theme="dark">
+  <a class="back" href="index.html" data-back aria-label="Back"><svg viewBox="0 0 20 12" aria-hidden="true"><path d="M20 6H2M7 1L2 6l5 5" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a>
+  <h1 class="ct__t just"><span>We would love to hear</span><span>from <i class="sp"></i> you</span></h1>
+  <p class="ct__p">Got a project in motion, a brief to share or a question to ask?<br>Drop your details and we'll get you to the right person</p>
+  <form class="form" data-form novalidate>
+    <div class="form__row"><label class="fld "><input type="text" name="first" placeholder=" " required><span>First name*</span><em class="fld__err">Please fill this in</em></label><label class="fld "><input type="text" name="last" placeholder=" " required><span>Last name*</span><em class="fld__err">Please fill this in</em></label></div>
+    <label class="fld "><input type="email" name="email" placeholder=" " required><span>Email*</span><em class="fld__err">Please fill this in</em></label>
+    <div class="form__row"><label class="fld "><input type="text" name="company" placeholder=" " required><span>Company*</span><em class="fld__err">Please fill this in</em></label><label class="fld "><input type="text" name="role" placeholder=" " required><span>Job role*</span><em class="fld__err">Please fill this in</em></label></div>
+    <label class="fld fld--sel"><select name="reason" required><option value="" selected disabled hidden></option><option>New project</option><option>Request for proposal</option><option>Press</option><option>Careers</option><option>Something else</option></select><span>Reason for inquiry*</span><i><svg viewBox="0 0 12 20" aria-hidden="true"><path d="M6 0v18M1 13l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></i><em class="fld__err">Please choose one</em></label>
+    <label class="fld fld--sel"><select name="region" required><option value="" selected disabled hidden></option><option>Europe</option><option>Asia Pacific</option><option>North America</option><option>Africa</option><option>Middle East</option></select><span>Region*</span><i><svg viewBox="0 0 12 20" aria-hidden="true"><path d="M6 0v18M1 13l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></i><em class="fld__err">Please choose one</em></label>
+    <label class="fld fld--sel"><select name="source" required><option value="" selected disabled hidden></option><option>Search</option><option>Social media</option><option>Referral</option><option>Event</option><option>Press</option></select><span>How did you hear about us?*</span><i><svg viewBox="0 0 12 20" aria-hidden="true"><path d="M6 0v18M1 13l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></i><em class="fld__err">Please choose one</em></label>
+    <label class="fld "><input type="text" name="message" placeholder=" " ><span>Message (optional)</span><em class="fld__err">Please fill this in</em></label>
+    <label class="chk"><input type="checkbox" name="optin"><i></i><span>Sign up to receive our latest news &amp; views</span></label>
+    <div class="form__go"><button class="btn btn--light" type="submit"><span class="btn__t">Submit</span><span class="btn__a"><svg viewBox="0 0 20 12" aria-hidden="true"><path d="M0 6h18M13 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></span></button></div>
+    <p class="form__ok" hidden>Thanks — this is a demo form, nothing was sent. Replace it with your own endpoint.</p>
+  </form>
+</section>
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
